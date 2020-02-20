@@ -1,0 +1,330 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Api\\Conversor.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Api\\Conversor.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Api\\Conversor.Api.csproj",
+        "projectName": "Conversor.Api",
+        "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Api\\Conversor.Api.csproj",
+        "packagesPath": "C:\\Users\\desarrollo5\\.nuget\\packages\\",
+        "outputPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\desarrollo5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Context\\Conversor.Context.csproj": {
+                "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Context\\Conversor.Context.csproj"
+              },
+              "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Service\\Conversor.Service.csproj": {
+                "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Service\\Conversor.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Context\\Conversor.Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Context\\Conversor.Context.csproj",
+        "projectName": "Conversor.Context",
+        "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Context\\Conversor.Context.csproj",
+        "packagesPath": "C:\\Users\\desarrollo5\\.nuget\\packages\\",
+        "outputPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Context\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\desarrollo5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Entity\\Conversor.Entity.csproj": {
+                "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Entity\\Conversor.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Entity\\Conversor.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Entity\\Conversor.Entity.csproj",
+        "projectName": "Conversor.Entity",
+        "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Entity\\Conversor.Entity.csproj",
+        "packagesPath": "C:\\Users\\desarrollo5\\.nuget\\packages\\",
+        "outputPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\desarrollo5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Repository\\Conversor.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Repository\\Conversor.Repository.csproj",
+        "projectName": "Conversor.Repository",
+        "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Repository\\Conversor.Repository.csproj",
+        "packagesPath": "C:\\Users\\desarrollo5\\.nuget\\packages\\",
+        "outputPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\desarrollo5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Context\\Conversor.Context.csproj": {
+                "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Context\\Conversor.Context.csproj"
+              },
+              "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Entity\\Conversor.Entity.csproj": {
+                "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Entity\\Conversor.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Service\\Conversor.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Service\\Conversor.Service.csproj",
+        "projectName": "Conversor.Service",
+        "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Service\\Conversor.Service.csproj",
+        "packagesPath": "C:\\Users\\desarrollo5\\.nuget\\packages\\",
+        "outputPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\desarrollo5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Entity\\Conversor.Entity.csproj": {
+                "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Entity\\Conversor.Entity.csproj"
+              },
+              "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Repository\\Conversor.Repository.csproj": {
+                "projectPath": "D:\\Reto\\Reto\\Reto\\CVS\\Conversor.Repository\\Conversor.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

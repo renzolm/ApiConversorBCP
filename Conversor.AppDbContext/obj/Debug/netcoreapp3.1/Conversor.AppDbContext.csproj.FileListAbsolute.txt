@@ -1,0 +1,7 @@
+C:\Users\jerso\OneDrive\Documentos\CVS\Conversor.AppDbContext\bin\Debug\netcoreapp3.1\Conversor.AppDbContext.deps.json
+C:\Users\jerso\OneDrive\Documentos\CVS\Conversor.AppDbContext\bin\Debug\netcoreapp3.1\Conversor.AppDbContext.dll
+C:\Users\jerso\OneDrive\Documentos\CVS\Conversor.AppDbContext\obj\Debug\netcoreapp3.1\Conversor.AppDbContext.AssemblyInfoInputs.cache
+C:\Users\jerso\OneDrive\Documentos\CVS\Conversor.AppDbContext\obj\Debug\netcoreapp3.1\Conversor.AppDbContext.AssemblyInfo.cs
+C:\Users\jerso\OneDrive\Documentos\CVS\Conversor.AppDbContext\bin\Debug\netcoreapp3.1\Conversor.AppDbContext.pdb
+C:\Users\jerso\OneDrive\Documentos\CVS\Conversor.AppDbContext\obj\Debug\netcoreapp3.1\Conversor.AppDbContext.dll
+C:\Users\jerso\OneDrive\Documentos\CVS\Conversor.AppDbContext\obj\Debug\netcoreapp3.1\Conversor.AppDbContext.pdb

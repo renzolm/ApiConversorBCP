@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div ng-app="app" ng-controller="conversorCtrl">
+
+    <form>
+
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Monto</label>
+            <input type="text" class="form-control" id="monto" placeholder="Monto">
+        </div>
+        <div class="form-group row">
+            <label for="exampleFormControlSelect1">Pais Origen</label>
+            <select class="form-control" id="paisOrigen">
+                <option ng-repeat="x in paises"> {{x.paisOrigen}}</option>
+            </select>
+        </div>
+        <div class="form-group row">
+            <label for="exampleFormControlSelect1">Pais Destino</label>
+            <select class="form-control" id="paisDestino">
+                <option ng-repeat="x in paises"> {{x.paisDestino}}</option>
+            </select>
+        </div>
+        <div class="mb-2">
+            <span id="result">{{result}}</span>
+        </div>
+        <div class="form-group row">
+            <button type="button" class="btn btn-primary" ng-click="Calcular();">CALCULAR</button>
+        </div>
+    </form>
+
+</div>
+
+<script>
+
+    angular.module('app', []).controller('conversorCtrl', function($scope,$http, $timeout) {
+        $scope.paises = [];
+        
+        $scope.GetPaises = function () {
+            $http({
+                method: 'GET',
+                url: '/Home/Listar',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+            }).then(function successCallback(response) {
+               
+                $scope.paises = response.data;
+            }, function errorCallback(response) {
+                    alert(response.data);        
+            });   
+        }
+        $scope.Calcular = function () {
+            
+         var sOrigen = document.getElementById("paisOrigen");
+         var vOrigen = sOrigen.options[sOrigen.selectedIndex].value;
+
+         var sDestino = document.getElementById("paisDestino");
+         var vDestino = sDestino.options[sDestino.selectedIndex].value;
+
+        var monto = (document.getElementById("monto").value || 0);
+
+            if (vOrigen != vDestino) {
+
+                  $http({
+                      method: 'GET',
+                      url: '/Home/Calcular?origen=' + vOrigen + '&destino=' + vDestino + '&value=' + monto + '',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                }).then(function successCallback(response) {
+
+                    $scope.result = vOrigen + " - " + vDestino +" " + response.data;
+                }, function errorCallback(response) {
+                        alert(response.data);        
+                });   
+            }
+
+
+          
+        }
+
+        $scope.GetPaises();
+
+
+  });
+        
+</script>
